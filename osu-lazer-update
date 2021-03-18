@@ -1,0 +1,29 @@
+#!/bin/sh
+if [ ! -f "$HOME/.local/share/applications/osu-lazer.desktop" ]
+then
+    mkdir -p "$HOME/.local/share/applications/"
+    echo "[Desktop Entry]
+          Type=Application
+          Name=osu!lazer
+          Icon=osu-lazer.png
+          Exec=osu-lazer %U
+          Categories=Game;
+          StartupWMClass=osu-lazer
+          MimeType=x-scheme-handler/osu" > "$HOME/.local/share/applications/osu-lazer.desktop"
+fi
+
+if [ ! -f "$HOME/.local/share/icons/osu-lazer.png" ]
+then
+    mkdir -p "$HOME/.local/share/icons/"
+    wget -O "$HOME/.local/share/icons/osu-lazer.png" "https://i.imgur.com/jlxthiw.png"
+fi
+
+if [ ! -f "$HOME/.local/bin/osu-lazer" ]
+then
+    rm "$HOME/.local/bin/osu-lazer"
+fi
+
+wget -O "$HOME/.local/bin/osu-lazer" "https://github.com/ppy/osu/releases/latest/download/osu.AppImage"
+chmod +x "$HOME/.local/bin/osu-lazer"
+
+echo "This script is done!"
