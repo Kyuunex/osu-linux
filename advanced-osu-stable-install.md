@@ -1,5 +1,5 @@
 # Introduction
-Getting osu! to run on Linux under wine is not hard at all, however, it may be a bit tricky if you want the absolute lowest latency or want everything to work perfectly. I've had much worse experience dealing with people in the osu! mapping community than getting this game to run perfectly on Linux, so that should give you a sort of idea how piece of cake this is. So, in this guide, I will put everything I know about getting osu! (Stable) to run under wine.
+Getting osu! to run on Linux under wine is not hard at all, however, it may be a bit tricky if you want the absolute lowest latency or want everything to work perfectly. Even though, I've had much worse experience dealing with people in the osu! mapping community than getting this game to run perfectly on Linux, so that should give you a sort of idea how piece of cake this still is. So, in this guide, I will put everything I know about getting osu! (Stable) to run under wine.
 
 # Before getting started
 Before getting started, you need to create a wine prefix to use exclusively for osu! A wine prefix is basically folder that contains all the dependencies osu! needs on top of wine to run perfectly. The stuff we will be installing basically. To make a new prefix, simply do this  
