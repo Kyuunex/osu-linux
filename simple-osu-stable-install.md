@@ -9,7 +9,7 @@ Firstly, make sure you have wine, winetricks and it's dependencies installed.
 Download the script in your `bin` folder and make it executable through these commands: (This assumes your `bin` folder is in your `PATH`. If not, add it or use a different folder that is.)
 ```sh
 mkdir -p "$HOME/.local/bin/"
-wget -O "$HOME/.local/bin/osu-stable" "https://raw.githubusercontent.com/Kyuunex/my-linux-stuff/main/scripts/osu-stable-install/osu-stable"
+wget -O "$HOME/.local/bin/osu-stable" "https://raw.githubusercontent.com/Kyuunex/osu-linux/main/osu-stable"
 chmod +x "$HOME/.local/bin/osu-stable"
 ```
 
