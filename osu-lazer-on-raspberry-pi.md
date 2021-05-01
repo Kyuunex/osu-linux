@@ -27,6 +27,9 @@ don't forget to get the fx24 one too
 After all these, just run the osu! file that is build in ./bin/Release/
 Making sure you drop the libbass files first. After that, try running.
 
+# using a tablet
+Since lazer has integrated OpenTabletDriver, you can just configure some udev rules, blacklist `hid_uclogic` and it will just work. Check out [this page](https://github.com/OpenTabletDriver/OpenTabletDriver/wiki/Linux-FAQ) on that.
+
 # Troubleshooting
 ## something something SDL
 if you get a libSDL realted error, you need to symlink `/usr/lib/arm-linux-gnueabihf/libSDL2-2.0.so.0.9.0` to `/usr/lib/arm-linux-gnueabihf/libSDL2.so` or copy it to the game's folder as that filename.
