@@ -40,4 +40,4 @@ This is because recently, Raspberry Pi OS has added Pulseaudio, which buffers so
 Unfortunately, you will need an external sound card for this to work. I was not able to get a stable sound this way though the built in headphone jack or HDMI.
 
 # video
-[video demonstration](https://youtu.be/G4YP2UsY9bk)
+[video demonstration](https://twitter.com/Kyuunex/status/1388499354617622534)
