@@ -33,7 +33,7 @@ if you get a libSDL realted error, you need to symlink `/usr/lib/arm-linux-gnuea
 ## Attempted to read or write protected memory
 Do not install `libasound2-dev`. if you did, uninstall it.
 ## Audio latency
-This is because recently, Raspberry Pi OS has added Pulseaudio, which buffers sound and this leads to latency. One way around this is to use `pasuspender` to paunch osu which will suspend pulseaudio. Then in the osu!'s sound device settings, manually select an audio device you wish to hear the audio from.   
+This is because recently, Raspberry Pi OS has added Pulseaudio, which buffers sound and this leads to latency. One way around this is to use `pasuspender` to launch osu which will suspend pulseaudio. Then in the osu!'s sound device settings, manually select an audio device you wish to hear the audio from.   
 Unfortunately, you will need an external sound card for this to work. I was not able to get a stable sound this way though the built in headphone jack or HDMI.
 
 # video
