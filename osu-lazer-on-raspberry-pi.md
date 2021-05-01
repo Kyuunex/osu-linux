@@ -31,7 +31,7 @@ Making sure you drop the libbass files first. After that, try running.
 ## something something SDL
 if you get a libSDL realted error, you need to symlink `/usr/lib/arm-linux-gnueabihf/libSDL2-2.0.so.0.9.0` to `/usr/lib/arm-linux-gnueabihf/libSDL2.so` or copy it to the game's folder as that filename.
 ## Attempted to read or write protected memory
-Do not install `libasound-dev`. if you did, uninstall it.
+Do not install `libasound2-dev`. if you did, uninstall it.
 
 # video
 [video demonstration](https://youtu.be/G4YP2UsY9bk)
