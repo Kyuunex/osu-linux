@@ -15,14 +15,17 @@ cd ./osu.Desktop
 dotnet publish --self-contained --configuration Release --runtime linux-arm
 ```
 
-# Running
-After all these, just run the osu! file that is build in ./bin/Release/
-Making sure you drop the libbass files first. After that, try running.
+# enabling the OpenGL drivers
+`sudo raspi-config` > 'Advanced Options' > 'GL Driver' > 'GL (Fake KMS'). Press OK, Finish and Reboot.
 
 # libbass
 you can get libbass from [here](https://un4seen.com/forum/?topic=13804.0)  
 if you are on 32 bit raspberry pi os, you will need to grab the binaries from the `hardfp` folder.
 don't forget to get the fx24 one too 
+
+# Running
+After all these, just run the osu! file that is build in ./bin/Release/
+Making sure you drop the libbass files first. After that, try running.
 
 # Troubleshooting
 ## something something SDL
