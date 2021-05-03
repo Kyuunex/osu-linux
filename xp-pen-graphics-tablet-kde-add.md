@@ -1,4 +1,8 @@
-# How to set up XP-Pen G430 or G640 on Linux (KDE)
+# This is outdated
+I recommend [OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver/wiki/Installation-Guide#linux) now. 
+I made the guide you see bellow a long time ago when OpenTabletDriver didn't even exist.
+
+# How to set up XP-Pen G430 or G640 on Linux (KDE Only)
 It took me a while to figure this out, so I'm putting this here so you'll have an easier time.  
 This is for KDE only. I have not used other DEs for osu! so I can't help you there.
 
