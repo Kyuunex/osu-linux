@@ -32,7 +32,7 @@ Since lazer has integrated OpenTabletDriver, you can just configure some udev ru
 
 # Troubleshooting
 ## something something SDL
-if you get a libSDL realted error, you need to symlink `/usr/lib/arm-linux-gnueabihf/libSDL2-2.0.so.0.9.0` to `/usr/lib/arm-linux-gnueabihf/libSDL2.so` or copy it to the game's folder as that filename.
+`sudo apt install libsdl2-dev`
 ## Attempted to read or write protected memory
 Do not install `libasound2-dev`. if you did, uninstall it.
 ## Audio latency
