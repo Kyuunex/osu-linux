@@ -13,5 +13,6 @@ I recommend [OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDri
 
 ## Directory
 + [simple osu-stable install guide](https://github.com/Kyuunex/osu-linux/tree/main/simple-osu-stable-install.md)
++ [pulseaudio vs alsa](https://github.com/Kyuunex/osu-linux/tree/main/pulseaudio-vs-alsa.md)
 + [lowering pulseaudio latency](https://github.com/Kyuunex/osu-linux/tree/main/pulseaudio-lower-latency.md)
 + [osu lazer on raspberry pi](https://github.com/Kyuunex/osu-linux/tree/main/osu-lazer-on-raspberry-pi.md)
