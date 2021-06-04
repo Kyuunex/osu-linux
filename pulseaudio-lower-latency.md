@@ -45,5 +45,5 @@ Based on [ThePooN's guide](https://blog.thepoon.fr/osuLinuxAudioLatency/). I'm j
         @audio - nice -20
         @audio - rtprio 99
         ```
-        + Replace `@audio` with your username or add your user account to the `audio` group by `sudo gpasswd -u YOUR_USERNAME audio`.
+        + Replace `@audio` with your username or add your user account to the `audio` group by `sudo gpasswd -a YOUR_USERNAME audio`.
 + Reboot
